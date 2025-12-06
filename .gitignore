@@ -1,0 +1,41 @@
+# Ignore Python virtual environments
+myenv/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.csv
+
+# HuggingFace / Pytorch checkpoints
+checkpoint-*/
+runs/
+checkpoints/
+*.safetensors
+
+# Large dirs
+models/
+
+# Datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# Models / checkpoints
+models/
+model/
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.onnx
+*.h5
+*.tflite
+*.safetensors
+checkpoint-*/
+runs/
+checkpoints/
